@@ -77,4 +77,4 @@ s = open("war_and_peace.txt")  #opening file
 g = s.read()
 words = re.findall("\w+", g) #finding the reg-ex
 letter = (Counter(zip(words, islice(words, 1, None))))    #counting The frequent two word combunations
-print(letter.most_common()[0])
+   print(letter.most_common()[0])
